@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="sectionSpotifyPage">
+        <div class="spotify-background-image ">
+            <div class="d-flex flex-column justify-content-center">
+                <div class="d-flex flex-row justify-content-center pt-5">
+                    <img src="./spotify logo.png" class="spotify-logo" alt="">
+                    <h1 class="spotify-heading"> Spotify </h1>
+                </div>
+                <div class="d-flex flex-column justify-content-center">
+                    <h1 class="spotify-description"> Play millions of <br> songs and <br> podcasts, for <br> free. </h1>
+                    <button class="btn" onclick="display('sectionSpotifyPlaylist')"> Listen Now </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionSpotifyPlaylist">
+        <div class="spotify-playlist-background">
+            <div class="d-flex flex-column justify-content-center pt-2">
+                <img src="./song cover.jpg" class="spotify-song-image" alt="">
+            </div>
+            <div class="d-flex flex-column justify-content-center mt-2">
+                <h1 class="spotify-song-heading"> Music Up, and Windows Down </h1>
+                <p class="spotify-song-para"> Late night car rides + music = world</p>
+            </div>
+            <div class="d-flex flex-column justify-content-center pt-2">
+                <div class="spotify-song-playlist mt-3">
+                    <div class="d-flex flex-row">
+                        <img src="./giuitar.jpg" class="spotify-song-1" alt="">
+                        <div class="d-flex flex-column p-2">
+                          <h1 class="song-name-1"> Let me down slowly</h1>
+                          <p class="song-by"> song by Alec Benjamin </p>
+                        </div>
+                    </div>
+                </div>    
+                <div class="spotify-song-playlist mt-3">    
+                    <div class="d-flex flex-row">
+                        <img src="./standing alone.jpg" class="spotify-song-1" alt="">
+                        <div class="d-flex flex-column p-2">
+                          <h1 class="song-name-1"> Hall of fame</h1>
+                          <p class="song-by"> song by the Script </p>
+                        </div>
+                    </div>
+                </div>
+                <img src="./now playing.jpg" class="now-playing pt-2" alt="">
+            </div>
+           
+            
+            <div class=" buttons d-flex flex-row justify-content-center pt-3 ">
+                <button class="back-button" onclick="display('sectionSpotifyTracks')"> More </button>
+                <button class="back-button" onclick="display('sectionSpotifyPage')"> Back </button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionSpotifyTracks">
+        <div class="spotify-playlist-background">
+            <div class="d-flex flex-column justify-content-center pt-5">
+               <h1 class="Spotify-all-tracks"> All Tracks</h1>
+               <div class="spotify-song-playlist mb-3 mt-5">    
+                <div class="d-flex flex-row">
+                    <img src="https://i.pinimg.com/originals/75/2d/dd/752ddd8f4c1caef77adf2dead69e0f1d.jpg" class="spotify-song-1" alt="">
+                    <div class="d-flex flex-column p-2">
+                      <h1 class="song-name-1"> Without Me</h1>
+                      <p class="song-by"> song by Halsey </p>
+                    </div>
+                </div>
+               </div>
+               <div class="spotify-song-playlist mb-4">    
+                <div class="d-flex flex-row">
+                    <img src="./dancing with stranger.jpg" class="spotify-song-1" alt="">
+                    <div class="d-flex flex-column p-2">
+                      <h1 class="song-name-1"> Dancing with Stranger</h1>
+                      <p class="song-by"> Song by Normani and Sam Smith </p>
+                    </div>
+                </div>
+               </div>
+               <div class="spotify-song-playlist mb-4">    
+                <div class="d-flex flex-row">
+                    <img src="./4241657214bcb7e99cd116f3bbe77d9c.jpg" class="spotify-song-1" alt="">
+                    <div class="d-flex flex-column p-2">
+                      <h1 class="song-name-1"> Something just like this</h1>
+                      <p class="song-by"> Song by Coldplay and The Chainsmokers </p>
+                    </div>
+                </div>
+               </div>
+               <div class="spotify-song-playlist mb-4">    
+                <div class="d-flex flex-row">
+                    <img src="./a11af2d10800ef8fb66bf4c0488b569f.jpg" class="spotify-song-1" alt="">
+                    <div class="d-flex flex-column p-2">
+                      <h1 class="song-name-1"> Lily</h1>
+                      <p class="song-by"> Song by Alan Walker </p>
+                    </div>
+                </div>
+               </div>
+               <div class="spotify-song-playlist mb-4">    
+                <div class="d-flex flex-row">
+                    <img src="./2eaf112cb1e4e8a7962b8672e597e04e.jpg" class="spotify-song-1" alt="">
+                    <div class="d-flex flex-column p-2">
+                      <h1 class="song-name-1">I Will Survive</h1>
+                      <p class="song-by"> Song by Gloria Gaynor </p>
+                    </div>
+                </div>
+               </div>
+               <div class=" buttons d-flex flex-row justify-content-center pt-3 ">
+                <button class="back-button" onclick="display('sectionSpotifyPlaylist')"> Back </button>
+               </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
